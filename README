@@ -1,0 +1,48 @@
+TOC:
+installation
+configuration
+usage
+notes
+credits
+
+INSTALLATION:
+
+put where it suits you
+
+please respect this hierarchy:
+
+a folder
+    |
+    |-smplayer-web.py
+    |-home.html
+    |-images
+        |-well... the images.
+
+CONFIGURATION:
+well for the moment it opens the 8080 port. if you want to modify it you can look at the source the "port = 8080" line and edit it accordingly.
+
+USAGE:
+
+run with
+$ python smplayer-web.py
+
+connect with the browser to 
+http://yourcomputer:8080
+and have a running istance of smplayer with the "one-istance" feature on.
+
+NOTES:
+you will need to click (or tap) to every button every time you want to do something.
+That means increase_volume and decrease_volume will NOT work keeping pressed. You need to click/tap every time.
+
+I warn you that this program is not meant to be used on a public host.
+
+CREDITS:
+This program took "free inspiration" from the python webserver at this address:
+http://fragments.turtlemeat.com/pythonwebserver.php
+that is work of Jon Berg of turtlemeat.com
+
+Thanks to him, to the Smplayer Project
+http://smplayer.sourceforge.net/
+
+and to Mplayer Project
+www.mplayerhq.hu
